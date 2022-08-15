@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px) {
+	.logo-box-container
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.menu-btn-container
+	{
+		display: flex;
+	}
+	
+	.menubar
+	{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		justify-content: center;
+		top: 50px;
+		left: 0;
+		display: none;
+	}
+	
+	.welcome-box
+	{
+		flex-direction: column;
+	}
+	
+	.welcome-right-box
+	{
+		width: 100%;
+		height: 50%;
+	}
+	
+	.welcome-left-box
+	{
+		width: 100%;
+		height: 50%;
+	}
+	
+	.welcome-left
+	{
+		align-items: center;
+	}
+	
+	.skill-card
+	{
+		max-width: 90%;
+	}
+	
+	
+}
